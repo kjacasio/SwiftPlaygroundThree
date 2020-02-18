@@ -38,6 +38,22 @@ print(fruitNames[1])
 //print item at index 0
 //Problem set #1
 
+var carNames : [String]
 
+carNames = ["bmw", "cooper", "benz", "typer", "testla", "lexus", "honda", "toyota"]
 
+for name in carNames
+{
+    print("testla is a very expensive car" + name)
+}
 
+//Problem set #2
+
+var priceNames : [Int]
+
+priceNames = [0, 1, 2, 3, 4, 5, 6, 7]
+
+for cars in priceNames
+{
+    print(cars + 100)
+}
